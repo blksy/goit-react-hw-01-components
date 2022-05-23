@@ -1,0 +1,26 @@
+.transactionHistory {
+  color: var(--accent-secondary);
+  width: 400px;
+  border-collapse: collapse;
+  border: 1px solid var(--secondary-bgc);
+  text-align: center;
+  margin: auto auto;
+}
+
+th {
+  border: 1px solid var(--accent-secondary);
+  background-color: var(--accent);
+  color: var(--primary-bgc);
+  padding: 5px 0 5px 0;
+}
+td {
+  border: 1px solid var(--accent-secondary);
+  padding: 5px 0 5px 0;
+}
+td:first-child {
+  text-transform: capitalize;
+}
+
+tr:nth-child(even) {
+  background-color: var(--history-bgc);
+}
